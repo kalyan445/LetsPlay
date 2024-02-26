@@ -12,16 +12,24 @@
   </head>
   <body>
     <!--  image div -->
-    <div class="main-div relative z-0 flex justify-center items-center">
-      <img src="../assets/peakpx.jpg" alt=""  />
+    <div class="main-div relative z-0 flex justify-center  items-center">
+      
+       
+      <div class=" w-[100%] h-[100%] lg:hidden"><img src="../assets/tab.jpg" alt="Small Image" class=" lg:hidden  h-[44em] w-[100%] object-cover " />
+      </div>
 
-      <img src="../assets/register.jpg" alt="" class=" hidden  md:h-[100%] md:w-[100%]">
+      
+      <!-- Large screen image -->
+      <div class="hidden md:hidden lg:block w-[100%] h-[100%] lg:h-[100%] " >  <img src="../assets/register.jpg" alt="Large Image" class="hidden md:hidden lg:block w-[100%] lg:h-[70%]" /></div>
+  
       
       <div
-        class="absolute z-index: 10 h-[30em] w-[30em] bg-slate-950 flex justify-evenly"
+        class="absolute z-index: 10 h-[50%] w-[70%] bg-slate-600  bg-opacity-40 flex justify-evenly md:w-[40%] lg:w-[40%]  lg:h-[60%]   lg:bg-slate-1200 "
       >
         <form class="flex justify-around flex-col">
           <div>
+
+         
             <label
               for=""
               class="text-[20px] text-white fonts-kode"
@@ -29,12 +37,20 @@
               >Username</label
             >
             <br />
+
+           
             <input
+            
+            
               type="text "
-              placeholder="Enter Your Username"
-              class="text-[20px] h-[2em] w-[14em] rounded-2xl shadow-md focus:shadow-lg border-gray-300 focus:border-indigo-500 focus:ring focus:ring-indigo-200 rounded-md w-full px-3 py-2"
+              placeholder="Enter Your Username "
+              class="text-[20px] h-[2em] w-[14em] rounded-2xl shadow-md 
+              focus:shadow-lg border-gray-300 focus:border-indigo-500 
+              focus:ring focus:ring-indigo-200 rounded-md w-full px-3 py-2  lg:h-[3em] lg:w-[22em] "
               style="font-family: kode; outline: none"
+              
             />
+           
           </div>
 
           <div>
@@ -47,7 +63,10 @@
             <input
               type="text "
               placeholder="Enter Your Number"
-              class="text-[20px] h-[2em] w-[14em] rounded-2xl shadow-md focus:shadow-lg border-gray-300 focus:border-indigo-500 focus:ring focus:ring-indigo-200 rounded-md w-full px-3 py-2 border-none"
+              class="text-[20px] h-[2em] w-[14em] rounded-2xl 
+              shadow-md focus:shadow-lg border-gray-300 
+              focus:border-indigo-500 focus:ring focus:ring-indigo-200 
+              rounded-md w-full px-3 py-2 border-none  lg:h-[3em] lg:w-[22em]"
               style="font-family: kode; outline: none"
             />
           </div>
@@ -62,7 +81,10 @@
             <input
               type="text "
               placeholder="Enter Your Address"
-              class="text-[20px] h-[2em] w-[14em] rounded-2xl shadow-md focus:shadow-lg border-gray-300 focus:border-indigo-500 focus:ring focus:ring-indigo-200 rounded-md w-full px-3 py-2 border-none"
+              class="text-[20px] h-[2em] w-[14em] rounded-2xl 
+              shadow-md focus:shadow-lg border-gray-300 
+              focus:border-indigo-500 focus:ring focus:ring-indigo-200
+               rounded-md w-full px-3 py-2 border-none lg:h-[3em] lg:w-[22em]"
               style="font-family: kode; outline: none"
             />
           </div>
@@ -77,19 +99,20 @@
             <input
               type="text "
               placeholder="Enter Your Password"
-              class="text-[20px] h-[2em] w-[14em] rounded-2xl shadow-md focus:shadow-lg border-gray-300 focus:border-indigo-500 focus:ring focus:ring-indigo-200 rounded-md w-full px-3 py-2 border-none"
+              class="text-[20px] h-[2em] w-[14em] rounded-2xl
+               shadow-md focus:shadow-lg border-gray-300
+                focus:border-indigo-500 focus:ring focus:ring-indigo-200 
+                rounded-md w-full px-3 py-2 border-none lg:h-[3em] lg:w-[22em]"
               style="font-family: kode; outline: none"
             />
           </div>
 
-          <div class="flex justify-center  ">
+          <div class="flex justify-center mt-[10px]    ">
             <button
-              class="text-[20px] h-[2em] w-[5em]  text-white radius rounded-md"
-              style="font-family: kode; outline: none ; background: #000;color:rgb(255, 255, 255);
-              :hover{
-                background-color: white;
-                color: black;
-              }
+              class="text-[20px] h-[2em] w-[5em]  text-white radius rounded-md   hover:bg-gray-800 hover:text-gray-200"
+              style="font-family: kode; outline: none ; background: #000;color:rgb(255, 255, 255) ;
+            
+             
                
               "
             >
@@ -97,7 +120,7 @@
             </button>
           </div>
           <div class="flex justify-center text-white">
-            <a href="login.html" class="text-[20px]"  
+            <a href="../login/login.html" class="text-[20px]"  
             style="font-family: kode; outline: none" >Already have an Account</a> 
           </div>
         </form>
