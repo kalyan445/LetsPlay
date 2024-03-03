@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Kode+Mono:wght@400..700" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+</head>
+
+<body>
+
+
+  <div id="menu-list" class="bg bg-slate-600 h-[40em] w-[10em] flex flex-col justify-evenly items-center  md:'block"   ">
+        <div style="font-family: kode; outline: none"   class="w-[80%] h-[3em]   ml-[25px] flex text-[18px] "><div class="flex items-center">
+            <i class="fa-solid fa-gauge"></i>Dashboard</div></div>
+        <div style="font-family: kode; outline: none" c   class="w-[80%] h-[3em]   ml-[25px] flex text-[18px] "><div class="flex items-center " style=""><i class="fa-solid fa-user" class=""></i>Users</div>
+    
+      <div class=" mt-[40px] ml-[-20px] flex justify-between flex-col">
+        <a href="../Admin/staff.html"><button>Staff</button></a>
+        <button>User</button>
+
+      </div>
+    </div>
+        <div style="font-family: kode; outline: none"   class="w-[80%] h-[3em]   ml-[25px] flex text-[18px] "><div class="flex items-center"><i class="fa-solid fa-gamepad"  class=""></i>Equipment </div></div>   
+        <div style="font-family: kode; outline: none"   class="w-[80%] h-[3em]   ml-[25px] flex text-[18px] "><div class="flex items-center"><i class="fa-solid fa-trophy"  class=""></i>Ground</div></div>        
+        <div style="font-family: kode; outline: none"   class="w-[80%] h-[3em]   ml-[25px] flex text-[18px] "><div class="flex items-center"><i class="fa-solid fa-hand"  class=""></i></i>Rent Request</div></div>         
+        <div style="font-family: kode; outline: none"   class="w-[80%] h-[3em]   ml-[25px] flex text-[18px] "><div class="flex items-center"><i class="fa-solid fa-hand"  class=""></i></i>Others</div></div>         
+          
+
+
+
+
+
+    <script>
+        var menu = document.getElementById('menu-list');
+        var bol = true;
+    
+        function showHide() {
+            if (bol === true) {
+                menu.style.display = "block";
+                bol = false;
+            } else {
+                menu.style.display = "none";
+                bol = true;
+            }
+        }
+    </script>
+    
+
+
+
+
+  <div class="  index-10  md:w-[100%] lg:w-[100%] ">
+    <div id="inner-div"
+      class=" top-0 left-0 w-[100%] h-[5em]  bg-black flex  justify-between items-center  lg:w-[100%]">
+
+      <div class="hidden text-white md:block ml-[15px]">Let'S Play</div>
+
+      <!-- three lines -->
+      <div class="hamburger-menu h-[2em] w-[2em]  ml-[5px] flex justify-around flex-col md:hidden" id="toggle">
+        <div class="line h-[3px] bg-white"></div>
+        <div class="line h-[3px] bg-white"></div>
+        <div class="line h-[3px] bg-white "></div>
+      </div>
+      <!-- <div class=" bg-white">Let'S Play</div> -->
+
+      <div class="h-[2.2em] w-[4em] mr-[40px] rounded-[10%] bg-white flex justify-center  ">
+        <button style="font-family: kode; outline: none;   "><a href="./login/login.html">Login</a></button>
+      </div>
+
+      <!-- three lines with login  -->
+
+
+
+
+
+    </div>
+
+
+
+    <div class="    bg-opacity-30   h-[3em] w-[95%] bg-black   z-20 flex justify-evenly items-center
+        md:flex   md:flex-row  md:justify-evenly md:ml-[5em] md:w-[70%]  md:mt-[-34em]   md:absolute md:top-[35em]   md:left-0 md:items-center md:h-[4em]  
+         lg:w-[85%] 
+        
+        " id="menu-box">
+
+
+
+
+      <div style="font-family: kode; outline: none;color:white  " class="hover:underline button-[5px]">
+        <a href="../index.html" class="text-[18px]">Home</a>
+      </div>
+
+      <div class=" flex h-[4em]  items-center justify-center  py-20">
+        <div class="group relative cursor-pointer py-2">
+          <div class="flex items-center justify-between space-x-5  text-white px-4 mr-[15px]">
+            <a onClick="">
+              Rentals
+            </a>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="h-6 w-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </span>
+          </div>
+          <div
+            class="invisible absolute  h-[1.em] z-50 flex w-full flex-col   px-4 text-gray-800 shadow-xl group-hover:visible"
+            onClick="">
+            <a href="./Equipment/equipment .html"
+              class=" block border-b border-gray-100  py-2  font-semibold text-gray-500 hover:text-white md:mx-2">Equipments</a>
+
+            <a class=" block border-b border-gray-100   font-semibold text-gray-500 hover:text-white md:mx-2">Ground</a>
+
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div style="font-family: kode; outline: none;color:white  " class="hover:underline button-[5px]">
+        <a href="" class="text-[18px]">Conatact Us</a>
+      </div>
+
+      <div style="font-family: kode; outline: none;color:white ; " class="hover:underline button-[5px]">
+        <a href="" class="text-[18px] ">About Us</a>
+      </div>
+
+    </div>
+
+
+    <div class="w-full h-[3em] bg-blue-600 flex items-center bg-blue-600 bg-opacity-30 justify-center">
+      <h1 class="text-[26px]" style="font-family: kode;  "> We Have</h1>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="bg-black">
+      <div class="container mx-auto px-4 ">
+        <!-- Shopping Cart Items -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          <!-- Cart Item 1 -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-md mt-[2em]">
+            <img src="../assets/gloves.jpg" alt="Item 1" class="w-full h-48 object-cover">
+            <div class="p-4 bg-white rounded-lg shadow-md border border-gray-200">
+              <h2 class="text-xl font-bold mb-2">Football Gloves</h2>
+              <p class="text-gray-700">Rs.500/hr</p>
+              <p class="text-gray-700">Available</p>
+              <!-- Details Button -->
+              <button class="bg-black text-white px-4 py-2 mt-4 rounded-md hover:bg-blue-600">Details</button>
+            </div>
+          </div>
+          <!-- Cart Item 2 -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-md  md:mt-[2em]">
+            <img src="../assets/gloves.jpg" alt="Item 1" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h2 class="text-xl font-bold mb-2">Football Gloves</h2>
+              <p class="text-gray-700">Rs.500/hr</p>
+              <p class="text-gray-700">Available</p>
+              <!-- Add to Cart Button -->
+              <button class="bg-black text-white px-4 py-2 mt-4 rounded-md">Details</button>
+            </div>
+          </div>
+
+
+          <div class="bg-white rounded-lg overflow-hidden shadow-md md:mt-[2em]">
+            <img src="../assets/gloves.jpg" alt="Item 1" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h2 class="text-xl font-bold mb-2">Football Gloves</h2>
+              <p class="text-gray-700">Rs.500/hr</p>
+              <p class="text-gray-700">Available</p>
+              <!-- Add to Cart Button -->
+              <button class="bg-black  px-4 py-2 mt-4 rounded-md">Details</button>
+            </div>
+          </div>
+
+
+          <div class="bg-white rounded-lg overflow-hidden shadow-md md:mt-[2em]">
+            <img src="../assets/gloves.jpg" alt="Item 1" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h2 class="text-xl font-bold mb-2">Football Gloves</h2>
+              <p class="text-gray-700">Rs.500/hr</p>
+              <p class="text-gray-700">Available</p>
+              <!-- Add to Cart Button -->
+              <button class="bg-black text-white px-4 py-2 mt-4 rounded-md">Details</button>
+            </div>
+          </div>
+
+
+          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+            <img src="../assets/gloves.jpg " alt="Item 1" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h2 class="text-xl font-bold mb-2">Football Gloves</h2>
+              <p class="text-gray-700">Rs.500/hr</p>
+              <p class="text-gray-700">Available</p>
+              <!-- Add to Cart Button -->
+              <button class="bg-black text-white px-4 py-2 mt-4 rounded-md">Details</button>
+            </div>
+          </div>
+          <!-- Add more cart items here -->
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <div class="h-[10em] w-full  mt-[5px] flex justify-around flex-col">
+    <div class="w-full h-[3em] bg-slate-200 flex justify-center items-center ">
+
+      <div class="flex justify-around w-[10em]">
+        <a href="#">
+          <div><i class="fa-brands fa-instagram"></i></div>
+        </a>
+        <a href="#">
+          <div><i class="fa-brands fa-facebook"></i></div>
+        </a>
+        <a href="#">
+          <div><i class="fa-brands fa-twitter"></i></i></div>
+        </a>
+
+      </div>
+
+
+
+    </div>
+
+    <div class="w-full h-[7em] bg-black flex flex-col">
+      <div class="w-full h-[80%] bg-yellow-400"></div>
+      <div class="w-full h-[20%] bg-black">
+        <div class="flex justify-center">
+          <p class="text-white">&copy;2024 Let's Play Pvt. Ltd</p>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+  </div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      let toggleBtn = document.getElementById('toggle');
+      let menuBox = document.getElementById('menu-box');
+
+      toggleBtn.addEventListener('click', function () {
+        menuBox.classList.toggle('hidden');
+      });
+    });
+  </script>
+
+</body>
+
+</html>
