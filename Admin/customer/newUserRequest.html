@@ -3,20 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Users</title>
+    <title>New User Request</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Kode+Mono:wght@400..700" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <div class="w-full h-[3em] bg-black text-white text-[24px] flex justify-center items-center">All User Request</div>
 
 
-
-<div class="w-full h-[5em] bg-black flex justify-evenly items-center">
-  <div class="text-white w-[90%]">All Customer</div>
-  <div class="w-[3em] h-[2em] bg-white text black"><a href="../Admin/customer/newUserRequest.html">Reuest</a></div>
-</div>
-
+    
     <div class="overflow-x-auto">
         <table class="table-auto w-full">
           <thead>
@@ -36,8 +32,9 @@
               <td class="border px-4 py-2">Accepted</td>
               <td class="border px-4 py-2">
                 <div class="flex justify-around">
-                    <i class="fa-solid fa-money-check-dollar"></i>
-                    <i class="fa-solid fa-xmark"></i>
+                    <button class="bg-black text-white">Accept</button>
+                    <button class="bg-black text-white">Reject</button>
+                    
 
                 </div></td>
             </tr>
@@ -45,6 +42,8 @@
           </tbody>
         </table>
       </div>
+   
+
     
 </body>
 </html>

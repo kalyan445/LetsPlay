@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Kode+Mono:wght@400..700" />
+</head>
+<body>
+
+
+    <div class="w-full  h-[5em] bg-black ">
+        <div class="w-[5em] h-[2em] text-white cursor-pointer" onclick=handleBack()>Back</div>
+        <div class="text-white w-[98%]">All Users</div>
+    </div>
+
+    <div class="flex  ">
+
+        <div id="menu-list"
+          class="  relateive z-10 bg bg-slate-900 text-white h-[40em] w-[12em] flex flex-col justify-evenly items-center  md:'block">
+          <div style="font-family: kode; outline: none" class="w-[80%] h-[3em]   ml-[25px] flex text-[18px] ">
+            <div class="flex items-center">
+              <i class="fa-solid fa-gauge  text-white "></i>
+              <h3 class="ml-[15px]"><a href="../../Admin/adminhome.html">Dashboard</a></h3>
+            </div>
+          </div>
+          <div style="font-family: kode; outline: none" class="w-[80%] h-[3em]  group  ml-[25px] flex text-[18px]  ">
+            <div class="flex items-center justify-evenly "><i class="fa-solid fa-user" class=""></i>
+              <h3 class="ml-[15px]">Users</h3> <i class="fa-solid fa-angle-down"></i>
+            </div>
+    
+            <div class=" mt-[40px] ml-[-20px] flex justify-between flex-col hidden group-hover:block ">
+              <a href="# " class="text-white hover:opacity-50"><button>Staff</button></a>
+              <a href="../../Admin/customer/users.html " class="text-white hover:opacity-50"><button>Customer</button></a>
+    
+    
+            </div>
+          </div>
+          <div style="font-family: kode; outline: none" class="w-[80%] h-[3em]   ml-[25px] flex text-[18px] ">
+            <div class="flex items-center "><i class="fa-solid fa-gamepad" class=""></i>
+              <h3 class="ml-[15px]"><a href="../../Admin/addEquipmentform.html">Equipment</a></h3>
+            </div>
+          </div>
+          <div style="font-family: kode; outline: none" class="w-[80%] h-[3em]   ml-[25px] flex text-[18px] ">
+            <div class="flex items-center"><i class="fa-solid fa-trophy" class=""></i>
+              <h3 class="ml-[15px]"><a href="../Ground/addGrounds.html">Ground</a></h3>
+            </div>
+          </div>
+          <div style="font-family: kode; outline: none" class="w-[80%] h-[3em]   ml-[25px] flex text-[18px] ">
+            <div class="flex items-center"><i class="fa-solid fa-hand" class=""></i></i>
+              <h3 class="ml-[15px]">Rent Request</h3>
+            </div>
+          </div>
+          <div style="font-family: kode; outline: none" class="w-[80%] h-[3em]   ml-[25px] flex text-[18px] ">
+            <div class="flex items-center"><i class="fa-solid fa-hand" class=""></i></i>
+              <h3 class="ml-[15px]">Others</h3>
+            </div>
+          </div>
+    
+    
+    
+        </div>
+    
+
+        <script>
+            const handleBack=()=>{
+                window.history.back();
+            }
+        </script>
+
+
+
+    
+</body>
+</html>

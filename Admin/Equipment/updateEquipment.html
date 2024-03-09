@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Equipment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Kode+Mono:wght@400..700" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+
+         
+<div  class="flex  flex-row ">
+    <div id="menu-list" class="bg bg-slate-900 text-white h-[40em] w-[18em] flex flex-col justify-evenly items-center  md:'block"   >
+        <div style="font-family: kode; outline: none"   class="w-[80%] h-[3em]   ml-[25px] flex text-[18px] "><div class="flex items-center">
+            <i class="fa-solid fa-gauge  text-white "></i><h3 class="ml-[15px]">Dashboard</h3></div></div>
+        <div style="font-family: kode; outline: none"    class="w-[80%] h-[3em]  group  ml-[25px] flex text-[18px]  "><div class="flex items-center justify-evenly " ><i class="fa-solid fa-user" class=""></i><h3 class="ml-[15px]">Users</h3> <i class="fa-solid fa-angle-down"></i> </div>
+    
+      <div class=" mt-[40px] ml-[-20px] flex justify-between flex-col hidden group-hover:block ">
+        <a href="../Admin/staff.html  " class="text-white hover:opacity-50"><button>Staff</button></a>
+        <a href="../Admin/staff.html  " class="text-white hover:opacity-50"><button>Customer</button></a>
+        
+    
+      </div>
+    </div>
+        <div style="font-family: kode; outline: none"   class="w-[80%] h-[3em]   ml-[25px] flex text-[18px] ">
+            <div class="flex items-center "><i class="fa-solid fa-gamepad"  class=""></i><h3 class="ml-[15px]"><a href="../Admin/addEquipmentform.html">Equipment</a></h3> </div></div>   
+        <div style="font-family: kode; outline: none"   class="w-[80%] h-[3em]   ml-[25px] flex text-[18px] "><div class="flex items-center"><i class="fa-solid fa-trophy"  class=""></i><h3 class="ml-[15px]"><a href="../Admin/allGrounds.html">Ground</a></h3></div></div>        
+        <div style="font-family: kode; outline: none"   class="w-[80%] h-[3em]   ml-[25px] flex text-[18px] "><div class="flex items-center"><i class="fa-solid fa-hand"  class=""></i></i><h3 class="ml-[15px]">Rent Request</h3></div></div>         
+        <div style="font-family: kode; outline: none"   class="w-[80%] h-[3em]   ml-[25px] flex text-[18px] "><div class="flex items-center"><i class="fa-solid fa-hand"  class=""></i></i><h3 class="ml-[15px]">Others</h3></div></div>         
+          
+    
+    
+</div>
+
+
+
+
+   
+    <div class="w-full ">
+        <div class="w-full h-[4em] bg-black text-white flex justify-around items-center">
+            <div>Update Euipment</div>
+            <div><a href="../Admin/allEquipment.html"><i class="fa-solid fa-circle-info"></i></a></div>
+
+        </div>
+          <div class=" h-[30em] bg-yellow-500  flex justify-center items-center " >
+        <form action="" class="">
+        <label for="name">Name</label><br>
+        <input type="text" placeholder="input the name" class="border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-black"><br>
+
+        <label for="price">Price</label><br>
+        <input type="text" placeholder="price" class="border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-black"><br>
+
+        <label for="dec">Decription</label><br>
+        <input type="text" placeholder="Decription" class=" h-[5em] border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-black"><br>
+        <input class="block w-[10em]  mt-[5px] text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400" id="file_input" type="file">
+        <button class="h-[3em] w-[7em] bg-black mt-[5px]  hover:opacity-50 text-white font-bold py-2 px-4 rounded">Update</button>
+
+
+    </form>
+     </div>
+    </div>
+
+    
+    
+</body>
+</html>
